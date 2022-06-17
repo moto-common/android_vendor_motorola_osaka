@@ -28,7 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osaka/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_auo_1080p_681.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_auo_1080p_681.xml \
     vendor/motorola/osaka/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_bod_1080p_681.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_bod_1080p_681.xml \
     vendor/motorola/osaka/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_boe_1080p_681.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_boe_1080p_681.xml \
-    vendor/motorola/osaka/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
+    vendor/motorola/osaka/proprietary/vendor/etc/thermal-engine-denver.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-denver.conf \
     vendor/motorola/osaka/proprietary/vendor/firmware/NT36xxx_MP_Setting_Criteria_602D.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/NT36xxx_MP_Setting_Criteria_602D.csv \
     vendor/motorola/osaka/proprietary/vendor/firmware/NT36xxx_MP_Setting_Criteria_602E.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/NT36xxx_MP_Setting_Criteria_602E.csv \
     vendor/motorola/osaka/proprietary/vendor/firmware/auo_novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/auo_novatek_ts_fw.bin \
@@ -165,6 +165,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osaka/proprietary/vendor/lib/libcapiv2svacnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svacnn.so \
     vendor/motorola/osaka/proprietary/vendor/lib/libcapiv2svarnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svarnn.so \
     vendor/motorola/osaka/proprietary/vendor/lib/libcapiv2vop.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2vop.so \
+    vendor/motorola/osaka/proprietary/vendor/lib/libchilog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchilog.so \
     vendor/motorola/osaka/proprietary/vendor/lib/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcom.qti.chinodeutils.so \
     vendor/motorola/osaka/proprietary/vendor/lib/libfcell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfcell.so \
     vendor/motorola/osaka/proprietary/vendor/lib/libipebpsstriping.so:$(TARGET_COPY_OUT_VENDOR)/lib/libipebpsstriping.so \
@@ -179,9 +180,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osaka/proprietary/vendor/lib/libmmcamera_mfnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mfnr.so \
     vendor/motorola/osaka/proprietary/vendor/lib/libmmcamera_mfnr_t4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mfnr_t4.so \
     vendor/motorola/osaka/proprietary/vendor/lib/libmmcamera_pdpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdpc.so \
+    vendor/motorola/osaka/proprietary/vendor/lib/libmot_afd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot_afd.so \
+    vendor/motorola/osaka/proprietary/vendor/lib/libmot_lux_standardization.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot_lux_standardization.so \
     vendor/motorola/osaka/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
     vendor/motorola/osaka/proprietary/vendor/lib/libmulticam_optical_zoom_control.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmulticam_optical_zoom_control.so \
     vendor/motorola/osaka/proprietary/vendor/lib/libmulticam_video_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmulticam_video_optical_zoom.so \
+    vendor/motorola/osaka/proprietary/vendor/lib/libofflinedump.so:$(TARGET_COPY_OUT_VENDOR)/lib/libofflinedump.so \
     vendor/motorola/osaka/proprietary/vendor/lib/libofflinelog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libofflinelog.so \
     vendor/motorola/osaka/proprietary/vendor/lib/libopencv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libopencv.so \
     vendor/motorola/osaka/proprietary/vendor/lib/libopestriping.so:$(TARGET_COPY_OUT_VENDOR)/lib/libopestriping.so \
